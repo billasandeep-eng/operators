@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit Calculation</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .box {
+            background-color: white;
+            width: 350px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        input {
+            padding: 10px;
+            width: 200px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Profit Calculation</h2>
+
+        <input type="text" id="n1" placeholder="Cost Price">
+        <br>
+
+        <input type="text" id="n2" placeholder="Selling Price">
+        <br>
+
+        <input type="text" id="result" placeholder="Profit" readonly>
+        <br>
+
+        <button onclick="subtract()">VALUE</button>
+    </div>
+
+    <script src="os.js"></script>
+</body>
+</html>
